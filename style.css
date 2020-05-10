@@ -1,0 +1,68 @@
+.container1 {
+    position: fixed;
+    right: 0;
+    }
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-flow:column;
+    padding-top: 170px;
+    }
+.container3 {
+    background-color:rgb(230,230,230);
+    width: 2400px;
+    height: 80px;
+    position:fixed;
+    bottom: 0;
+    }
+.lijevodole {
+    position:fixed;
+    left: 0;
+    bottom: 5px;
+    word-spacing: 2px;
+    }
+.desnodole {
+    position:fixed;
+    right: 0;
+    bottom: 5px;
+    word-spacing: 10px;
+    }
+.font {
+  font-family: Verdana;
+  font-size: 14px;
+  }
+.okvir {
+    padding: 10px;
+    border-top:0.6px solid;
+    border-color: hsl(0, 0%, 85%);
+   }
+.trazilica {
+    outline:none;
+    border-width: 1px;
+    border-radius:20px;
+    width: 500px;
+    height:40px;
+    text-align:center;
+    }
+.buttonprilagodjeni {
+    font-familiy:arial, sans-serif;
+    font-size:15px;
+    color:rgba(0,0,0,.55)
+    backgorund-color: rgb(192,192,192);
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-width:0px;
+    border-radius:7px;
+    }
+.linksfooter {
+    text-decoration: none;
+    color: black;
+    padding-right:15px;
+    }
+.linksheader {
+    text-decoration: none;
+    color: black;
+    padding-right:15px;
+    }
